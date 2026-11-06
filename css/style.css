@@ -1,0 +1,201 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #eee;
+  background: #292929;
+  min-height: 2000px;
+  padding-top: 50px;
+}
+
+.table thead > tr > th {
+  border-color: #666;
+}
+
+.global-col2-1 {
+  width: 48%;
+  float: left;
+}
+
+.global-col2-2 {
+  width: 48%;
+  float: right;
+}
+
+.fieldset p{
+  font-weight: bold;
+}
+
+#footer{
+  background-color: #191919;
+  padding: 3em;
+  background: url('../images/pattern1c.jpg');
+}
+
+.jumbotron{
+  background: url('../images/overlay.png'), url('../images/billboard1.jpg') top center;
+  height: 400px;
+  margin-bottom: 0;
+}
+
+label.error {
+  color: #f00;
+  float: none;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 0 0 5px;
+  padding: 0 0 0 5px;
+  width: auto;
+}
+
+.slice{
+  padding: 6em 0;
+  min-height: 300px;
+}
+
+.slice.s1{
+  background: url('../images/pattern1b.jpg');
+  background-color: #292929;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #222;
+}
+
+.slice.s2{
+  background: url('../images/pattern1.jpg');
+  background-color: #333;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.slice.s4, .slice.s5, .slice.s6, .slice.s7, .slice.s8{
+  opacity: 0.8;
+}
+
+.slice.s3{
+  background: url('../images/overlay.png'), url('../images/billboard2.jpg') center center no-repeat;
+  min-height: 500px;
+}
+
+.slice.s4{
+  background: url('../images/overlay.png'), url('../images/billboard5.jpg') center center no-repeat;
+}
+
+.slice.s5{
+  background: url('../images/overlay.png'), url('../images/billboard3.jpg') center center no-repeat;
+}
+
+.slice.s6{
+  background: url('../images/overlay.png'), url('../images/billboard4.jpg') center center no-repeat;
+}
+
+.slice.s7{
+  background: url('../images/overlay.png'), url('../images/billboard6.jpg') center center no-repeat;
+}
+
+.slice.s8{
+  background: url('../images/overlay.png'), url('../images/billboard7.jpg') center center no-repeat;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.marketing.staff .col-md-3 {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+.marketing .col-md-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+hr {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 3px solid #121212;
+  border-top: none;
+}
+
+.featurette-divider {
+  margin: 80px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 3px solid #121212;
+  border-top: none;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-image{
+  border-radius: 0px;
+  border: 3px solid #999;
+  box-shadow: 0px 3px 6px #222;
+}
+
+/* THANKS CSS
+-------------------------------------------------- */
+
+.jumbotron.thanks{
+  background: url('../images/overlay.png'), url('../images/thanks.jpg') center center;
+  height: 400px;
+  margin-bottom: 0;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px){
+  .slice{
+    padding: 4em 0;
+    min-height: 150px;
+  }
+
+  .slice.s4, .slice.s5, .slice.s6, .slice.s7, .slice.s8{
+    display: none;
+  }
+}
